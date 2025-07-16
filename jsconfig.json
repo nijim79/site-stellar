@@ -1,7 +1,11 @@
+
+// app\jsconfig.json
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "include": ["."]
 }
